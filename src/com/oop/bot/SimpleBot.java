@@ -140,6 +140,7 @@ public class SimpleBot {
             System.out.print("==========================================================================\n");
             System.out.print("Your answer: ");
             String response = scanner.nextLine();
+            // j is not updated inside loop
             for (int j = 0; j < 3; i++) {
                 if (!q.checkAnswer(response)) {
                     System.out.println("Please try again!");
